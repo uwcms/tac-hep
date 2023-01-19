@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 excerpt_separator: <!--more-->
-github_username:  jekyll
+github_username:  ckoraka
 logo: /mstile-150x150.png
 
 defaults:
