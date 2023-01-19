@@ -1,0 +1,9 @@
+name: TAC-HEP GPU module
+startdate: 2023-01-24
+enddate: 2023-03-13
+location: University of Wisconsin Madison
+meetingurl: 
+image:
+description: Training on GPUs and CUDA
+labels:
+  - training
