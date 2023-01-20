@@ -29,6 +29,11 @@ excerpt_separator: <!--more-->
 github_username:  ckoraka
 logo: /mstile-150x150.png
 source: .
+destination         : ./_site
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
+
 
 defaults:
   - scope:
