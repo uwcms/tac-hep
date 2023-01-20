@@ -29,10 +29,9 @@ excerpt_separator: <!--more-->
 github_username:  ckoraka
 logo: /mstile-150x150.png
 
-
 defaults:
   - scope:
-      path: ""
+      path: "."
     values:
       image: /mstile-150x150.png
 
