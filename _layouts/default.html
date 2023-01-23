@@ -1,16 +1,16 @@
 <!doctype html>
 
-{% include layout_header_navbar.html %}
+{% include {{ site.baseurl }}/layout_header_navbar.html %}
     <div id="container">
       <div class="container page">
         <main role="main">
           {{ content }}
         </main>
       </div>
-      {% include_cached footer.html %}
+      {% include_cached {{ site.baseurl }}/footer.html %}
     </div>
 
-  {% include_cached layout_analytics.html %}
+  {% include_cached {{ site.baseurl }}/layout_analytics.html %}
 
   </body>
 </html>
