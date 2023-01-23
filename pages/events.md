@@ -28,7 +28,7 @@ chronological order, grouped by months
   <h5>{{ pair.name }}</h5>
   <ul>
     {% for event in pair.items %}
-      <li> {{event.startdate | date: "%-d %b" }}{{event.enddate | date: " - %-d %b" }}, {{event.startdate | date: "%Y" }} - <a href="{{event.meetingurl}}">{{event.name}}</a> (<i>{{event.location}}</i>)
+      <li> {{event.startdate | date: "%-d %b" }}{{event.enddate | date: " - %-d %b" }}, {{event.startdate | date: "%Y" }} - <a href="{{ site.baseurl }}{{event.meetingurl}}">{{event.name}}</a> (<i>{{event.location}}</i>)
       {% if event.abstractdeadline != nil %}
         {% assign abs_date = event.abstractdeadline | date_to_long_string %}
         (Abstract deadline: {{abs_date}})

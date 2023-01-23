@@ -20,7 +20,7 @@ title: "News, Featured Stories and Links"
         {{ post.excerpt | strip_html }}
     {%- endif %}
     <div style="float: right;">
-    <a href="{{post.url}}">Read more</a>
+    <a href="{{ site.baseurl }}{{post.url}}">Read more</a>
     </div>
     <div style="clear:both"></div>
   </div>
