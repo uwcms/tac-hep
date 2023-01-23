@@ -9,5 +9,5 @@ TAC-HEP traineeship of data that will come from the High-Luminosity Large Hadron
 <!--more-->
 
 TAC-HEP will address key elements of the
-For more information see the [overview](/about/overview) on the lala(/).
+For more information see the [overview](/tac-hep/about/overview) on the lala(/).
 
