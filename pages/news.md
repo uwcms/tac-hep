@@ -7,7 +7,7 @@ title: "News, Featured Stories and Links"
 <h1>News, Featured Stories and Links</h1>
 {% for post in site.posts %}
   <div>
-    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ site.baseurl }}{{ post.title }}</a></h4>
     <h6><i>{{ post.date | date_to_long_string }}</i></h6>
     {% if post.image %}
     <img src="{{post.image}}" style="float:left; margin-left: 10px; margin-right: 10px; width: 35%; max-width: 200px;">
