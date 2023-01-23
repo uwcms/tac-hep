@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     {%- if page.postbanner -%}
-    <a href="{{ site.baseurl }}{{page.postbanner}}">
+    <a href="{{page.postbanner}}">
       <img src="{{page.postbanner}}" alt="Page banner image" class="banner"/>
     </a>
     {%- endif -%}
@@ -19,7 +19,7 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
-  {%- if page.image and page.image != "/assets/images/default-card.png" -%}
+  {%- if page.image and page.image != "{{ site.baseurl }}/assets/images/default-card.png" -%}
     {%- if page.image-caption -%}
       {% include figure.html file=page.image alt="Post primary image" caption=page.image-caption %}
     {%- else -%}
@@ -39,5 +39,5 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ site.baseurl }}{{ page.url | relative_url }}" hidden></a>
 </article>
