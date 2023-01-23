@@ -12,7 +12,7 @@ title: "News, Featured Stories and Links"
     {% if post.image %}
     <img src="{{post.image}}" style="float:left; margin-left: 10px; margin-right: 10px; width: 35%; max-width: 200px;">
     {% else %}
-    <img src="/assets/images/Tprime-200pu-PhaseII-black-arctic-main-image-small.jpg" style="float:left; margin-left: 10px; margin-right: 10px; width: 10%">
+    <img src="{{ site.baseurl }}/assets/images/Tprime-200pu-PhaseII-black-arctic-main-image-small.jpg" style="float:left; margin-left: 10px; margin-right: 10px; width: 10%">
     {% endif %}
     {% if post.summary %}
         {{ post.summary | markdownify }}
