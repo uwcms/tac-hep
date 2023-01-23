@@ -26,8 +26,8 @@ TAC-HEP is a recently funded multi-institutional (Princeton, UMass and UW-Madiso
   <div class="news row">
     {% for post in site.posts limit:4 %}
        <div class="card news">
-          <a href="{{post.url}}">
-            <img class="card-img-top" src="{{post.image}}" {% if post.image-whole -%} style="object-fit:scale-down;" {% endif -%} alt="Card image cap">
+          <a href="{{ site.baseurl }}{{post.url}}">
+            <img class="card-img-top" src="{{ site.baseurl }}{{post.image}}" {% if post.image-whole -%} style="object-fit:scale-down;" {% endif -%} alt="Card image cap">
           </a>
           <div class="card-body d-flex flex-column">
             <div class="card-text card-title">
@@ -39,14 +39,14 @@ TAC-HEP is a recently funded multi-institutional (Princeton, UMass and UW-Madiso
               {% else %}
                   {{ post.excerpt | strip_html }}
               {% endif %}
-            <a href="{{post.url}}">Read more</a></div>
+            <a href="{{ site.baseurl }}{{post.url}}">Read more</a></div>
           </div>
        </div>
     {% endfor %}
   </div>
 </div>
 
-<a href="/news.html">View all past news items</a>
+<a href="{{ site.baseurl }}/news.html">View all past news items</a>
 </div>
 
 <div class="mainpage-sidebar mainpage-container">
