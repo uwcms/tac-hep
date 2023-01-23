@@ -24,7 +24,7 @@ different page categories (using our custom frontmatter tag "pagetype").
 <ul>
 {% assign sorted = site.pages | where: 'pagetype', 'fellow' | sort_natural: 'title' %}
 {% for mypage in sorted %}
-  <li><a href="{{mypage.permalink}}">{{ mypage.title }}</a></li>
+  <li><a href="{{ site.baseurl }}{{mypage.permalink}}">{{ mypage.title }}</a></li>
 {% endfor %}
 </ul>
 
@@ -34,7 +34,7 @@ different page categories (using our custom frontmatter tag "pagetype").
 {% assign sorted = site.pages | select: 'title' | sort_natural: 'title' %}
 {% for mypage in sorted %}
   {% if mypage.pagetype != 'doc' and mypage.pagetype != 'focus-area' and mypage.pagetype != 'project' and mypage.pagetype != 'fellow' %}
-  <li><a href="{{mypage.permalink}}">{{ mypage.title }}</a></li>
+  <li><a href="{{ site.baseurl }}{{mypage.permalink}}">{{ mypage.title }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
