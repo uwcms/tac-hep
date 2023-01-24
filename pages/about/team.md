@@ -13,7 +13,7 @@ title: Institute Team
   <div class="row">
     {% for univ in univs %}
       {% assign members = univ.personnel | hash_fetch: site.data.people
-                                         | where_exp:"item", "item.active and item.hidden != true"
+                                         | where_exp:"item", "item.active"
                                          | last_name_sort: "name" %}
 
       {% for person in members %}
@@ -22,22 +22,3 @@ title: Institute Team
     {% endfor %}
   </div>
 </div>
-
-<br>
-<h1>Former Team Members</h1><br>
-
-<div class="container-fluid">
-  <div class="row">
-    {% for univ in univs %}
-      {% assign members = univ.personnel | hash_fetch: site.data.people
-                                         | where_exp: "item", "item.active == nil or item.active == false and item.hidden != true"
-                                         | last_name_sort: "name" %}
-
-      {% for person in members %}
-        {% include standard_person_card.md person=person %}
-      {% endfor %}
-    {% endfor %}
-  </div>
-</div>
-
-
