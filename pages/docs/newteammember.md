@@ -4,10 +4,10 @@ layout: default
 title: Information for new TAC-HEP team members
 pagetype: doc
 ---
-#### TAC-HEP website
+#### How to add a new team member of TAC-HEP on the website
 
-* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder][]. It should be 320x240 pixels.
-* Add a "`<your github username>.yml`" file to the [people folder in the website repository][people]. Here is an example:
+* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder][https://github.com/ckoraka/tac-hep/tree/main/assets/images/team]. It should be 320x240 pixels.
+* Add a "`<your github username>.yml`" file to the [people folder in the website repository][https://github.com/ckoraka/tac-hep/tree/main/_data/people]. Here is an example:
 
 ```yml
 active: true
@@ -30,5 +30,5 @@ presentations:
     location: Virtual
 ```
 
-* Add your GitHub username to the proper [university file][]. Note that you will *not* show up in the full team page if you are not in a university file!
+* Add your GitHub username to the proper [university file][https://github.com/ckoraka/tac-hep/tree/main/_data/universities]. Note that you will *not* show up in the full team page if you are not in a university file!
 

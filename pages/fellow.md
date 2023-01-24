@@ -9,13 +9,10 @@ pagetype: doc
 
 #### TAC-HEP website
 In order to add your information, we request you to please supply a photo ( First_Name-Last_Name.jpg or .png - 320x240 pixels) and a paragraph summarizing your project’s goals.
+You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to [this](https://github.com/ckoraka/tac-hep) repo.
 
-You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to this repo:
-
-<add repo>
-
-* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](link). It should be 320x240 pixels and in general should be 150kB or less.
-* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](link). See the example below.
+* Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/ckoraka/tac-hep/tree/main/assets/images/team). It should be 320x240 pixels and in general should be 150kB or less.
+* Add a "`<your github username>.md`" file to the [fellows folder in the website repository](https://github.com/ckoraka/tac-hep/tree/main/pages/fellows). See the example below.
 
 *Please Note*:  In the markdown file you create, ensure you set the “active” attribute to True – (i.e.  active: True).  Otherwise, your entry will not appear on our Fellows page.
 
@@ -24,7 +21,6 @@ Be sure to include your project summary in the project_goal field.
 You can leave the “presentations” and “current_status” fields blank for now.  (Make sure to include the fields)
 
 ```yml
-
 ---
 layout: fellow
 pagetype: fellow
