@@ -11,6 +11,7 @@ vendor/
 _cache/
 .ruby-version
 .jekyll-metadata
+_site/
 _data/indico/
 _data/topical/
 node_modules/
