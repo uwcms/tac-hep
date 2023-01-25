@@ -11,15 +11,15 @@ bundle install
 ## Build and deploy website
 
 **To check website on localhost:**
-```bundle exec jekyll build```
+```bundle exec jekyll serve```
 
 
 **To build website:**
 ```bundle exec jekyll build```
 
 
-
 **To deploy static site :**
-* Build from ```main``` repo
-* Switch to the ```gh-pages``` repo
+* Build website from ```main``` branch
+* Check that everything looks fine on localhost
+* Switch to the ```gh-pages``` branch
 * Copy the contents of the ```_site``` directory from ```main``` to ```gh-pages``` 
