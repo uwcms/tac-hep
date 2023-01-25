@@ -35,6 +35,8 @@ defaults:
     values:
       image: /mstile-150x150.png
 
+include: [".nojekyll"]
+
 # Build settings
 markdown: kramdown
 theme: minima
