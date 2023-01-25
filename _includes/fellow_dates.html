@@ -1,5 +1,0 @@
-{%- assign dates = include.dates | ensure_array -%}
-
-{% for date in dates %}
-    {{ date.start | print_date_range_month: date.end }}<br/>
-{% endfor %}
