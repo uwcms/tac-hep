@@ -25,8 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/tac-hep" # the subpath of your site, e.g. /blog
 url: "https://ckoraka.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-excerpt_separator: <!--more-->
 github_username:  ckoraka
+excerpt_separator: <!--more-->
 logo: /mstile-150x150.png
 
 defaults:
@@ -42,15 +42,11 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   
-  
 strict_front_matter: true
 
 liquid:
   error_mode: strict
   strict_filters: false
-
-sass:
-  sass_dir: _sass
 
 # Exclude from processing.
 exclude:
@@ -59,3 +55,7 @@ exclude:
   - bin
   - .github
   - Rakefile
+
+sass:
+  sass_dir: _sass
+
