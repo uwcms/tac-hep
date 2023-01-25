@@ -1,4 +1,6 @@
-# tac-hep.github.io
+# tac-hep website
+
+## Build and deploy website
 
 *To check website on localhost:*
 ```bundle exec jekyll build```
