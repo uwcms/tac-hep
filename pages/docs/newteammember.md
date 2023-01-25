@@ -30,5 +30,5 @@ presentations:
     location: Virtual
 ```
 
-* Add your GitHub username to the proper [university file][https://github.com/ckoraka/tac-hep/tree/main/_data/universities]. Note that you will *not* show up in the full team page if you are not in a university file!
+* Add your GitHub username to the proper [university file](https://github.com/ckoraka/tac-hep/tree/main/_data/universities). Note that you will *not* show up in the full team page if you are not in a university file!
 
