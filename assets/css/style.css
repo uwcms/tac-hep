@@ -96,7 +96,7 @@ div#container { position: relative; height: auto !important; height: 100%; min-h
 
 .footer-dark { border-top-color: #8a84d6; border-top-style: solid; border-top-width: 3px; padding-top: 0.5rem; padding-bottom: 1.5rem; padding-left: 0; padding-right: 0; position: absolute; width: 100%; bottom: 0; }
 
-@media not print { .footer-dark { background-image: linear-gradient(to right, #fff 0%, #0082ca 100%); background-repeat: repeat-x; } }
+@media not print { .footer-dark { background-image: linear-gradient(to right, #fff 0%, #9D0000 100%); background-repeat: repeat-x; } }
 
 @media (prefers-color-scheme: dark) { .footer-dark { background-image: linear-gradient(to right, #000 0%, #0082ca 100%); background-repeat: repeat-x; } }
 

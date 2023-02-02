@@ -16,22 +16,22 @@
     <meta name="theme-color" content="#ffffff">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Documentation pages | Traineeships in Advanced Computing for High Energy Physics (TAC-HEP)</title>
+<title>Adding a news item to the website | Traineeships in Advanced Computing for High Energy Physics (TAC-HEP)</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Documentation pages" />
+<meta property="og:title" content="Adding a news item to the website" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="https://ckoraka.github.io/tac-hep/docs.html" />
-<meta property="og:url" content="https://ckoraka.github.io/tac-hep/docs.html" />
+<link rel="canonical" href="https://ckoraka.github.io/tac-hep/docs/add_news.html" />
+<meta property="og:url" content="https://ckoraka.github.io/tac-hep/docs/add_news.html" />
 <meta property="og:site_name" content="Traineeships in Advanced Computing for High Energy Physics (TAC-HEP)" />
 <meta property="og:image" content="https://ckoraka.github.io/tac-hep/mstile-150x150.png" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://ckoraka.github.io/tac-hep/mstile-150x150.png" />
-<meta property="twitter:title" content="Documentation pages" />
+<meta property="twitter:title" content="Adding a news item to the website" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Documentation pages","image":"https://ckoraka.github.io/tac-hep/mstile-150x150.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://ckoraka.github.io/tac-hep/mstile-150x150.png"}},"url":"https://ckoraka.github.io/tac-hep/docs.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Adding a news item to the website","image":"https://ckoraka.github.io/tac-hep/mstile-150x150.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://ckoraka.github.io/tac-hep/mstile-150x150.png"}},"url":"https://ckoraka.github.io/tac-hep/docs/add_news.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -112,23 +112,53 @@
     <div id="container">
       <div class="container page">
         <main role="main">
-          <h1 id="documentation-pages">Documentation pages</h1>
+          <h2 id="how-to-add-a-news-post-to-the-tac-hep-site">How to add a news post to the TAC-HEP site</h2>
 
-<h4 id="informational">Informational</h4>
+<h4 id="names">Names</h4>
 
-<h4 id="new-team-members">New team members</h4>
+<p><a href="https://jekyllrb.com/docs/posts/">In Jekyll</a>, posts must be named <code class="language-plaintext highlighter-rouge">_posts/YEAR-MONTH-DAY-TITLE.md</code>. We recommend that all images
+for a post go into <code class="language-plaintext highlighter-rouge">assets/images/posts/YEAR-MONTH-DAY-*</code>, where you at least provide <code class="language-plaintext highlighter-rouge">assets/images/posts/YEAR-MONTH-DAY-TITLE-main.*</code> as
+the main post image.</p>
+
+<h4 id="front-matter">Front matter</h4>
+
+<p>Your news item will start with front matter. You should at least have:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">tacpost</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">&lt;title here&gt;</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">/assets/images/posts/&lt;main image here&gt;</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>There are several optional fields as well:</p>
+
 <ul>
-  <li><a href="/tac-hep/docs/newteammember">New team member page</a></li>
-  <li><a href="/tac-hep/docs/fellow">Fellow page</a></li>
+  <li><code class="language-plaintext highlighter-rouge">author</code>: The post author (your name, however you would like it displayed)</li>
+  <li><code class="language-plaintext highlighter-rouge">image-caption</code>: A caption string for the main post image. Will be added to the main image on the post page. Recommended for accessibility, if nothing else.</li>
+  <li><code class="language-plaintext highlighter-rouge">postbanner</code>: A very wide image to use as a banner across the top of the post.</li>
+  <li><code class="language-plaintext highlighter-rouge">summary</code>: Will replace the auto-summary with an explicit one for the main page, so the beginning text does not have to match.</li>
 </ul>
 
-<h4 id="website">Website</h4>
-<ul>
-  <li><a href="https://github.com/ckoraka/tac-hep">Website GitHub repo</a></li>
-  <li><a href="/tac-hep/docs/add_news">Add new news post</a></li>
-  <li><a href="/tac-hep/docs/webdesign">Website design features</a></li>
-</ul>
+<h4 id="text">Text</h4>
 
+<p>You should either use the summary field above, or insert the <code class="language-plaintext highlighter-rouge">&lt;!--break--&gt;</code> separator in your content. Everything above the break separator will be included in the summary, stripped of all HTML tags and formatting.</p>
+
+<p>Beyond the normal markdown formatting and Jekyll includes, you also have a figure environment. It looks like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% include figure.html
+    file="/assets/images/posts/*"
+    alt="&lt;please include for accessibility&gt;"
+    caption="&lt;optional&gt;"
+%}
+
+</code></pre></div></div>
+
+<p>There is an optional <code class="language-plaintext highlighter-rouge">class</code> parameter, which can be one of <code class="language-plaintext highlighter-rouge">"right"</code> (the default) or <code class="language-plaintext highlighter-rouge">"center"</code>. You can also explicitly set style options using the <code class="language-plaintext highlighter-rouge">style</code> parameter and standard inline CSS syntax.</p>
+
+<h4 id="general-comments">General comments</h4>
+
+<p>Please remember to check your post with different browser widths, and with dark mode enabled/disabled.</p>
 
         </main>
       </div>

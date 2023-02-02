@@ -1171,7 +1171,7 @@ div.toppagelinks .inner { display: inline-block; }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus { color: #0082ca; }
 
-.navbar-dark { background-image: linear-gradient(to right, #fff 0%, #0082ca 100%); background-repeat: repeat-x; border-bottom-color: #8a84d6; border-bottom-style: solid; border-bottom-width: 3px; }
+.navbar-dark { background-image: linear-gradient(to right, #fff 0%, #9D0000 100%); background-repeat: repeat-x; border-bottom-color: #8a84d6; border-bottom-style: solid; border-bottom-width: 3px; }
 
 .navbar-dark .navbar-brand { color: #fff; }
 
