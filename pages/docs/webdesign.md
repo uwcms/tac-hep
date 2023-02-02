@@ -11,7 +11,7 @@ You can read about the filters available [for Jekyll](https://jekyllrb.com/docs/
 
 ### General filters
 
-These are not specific to IRIS-HEP's design.
+These are not specific to website design.
 
 #### `basename`
 
@@ -134,9 +134,7 @@ This performs a nested sort. It works on Pages or on hashes. It also is stable, 
 {% endraw %}
 
 
-### IRIS-HEP specific filters
-
-There are also some filters specific to IRIS-HEP.
+### Filters taken from IRIS-HEP webpage
 
 #### `print_date_range` / `print_date_range_month`
 

@@ -13,4 +13,7 @@ title: "Documentation pages"
 * [Fellow page](/tac-hep/docs/fellow)
 
 #### Website
+* [Website GitHub repo](https://github.com/ckoraka/tac-hep)
+* [Add new news post](/tac-hep/docs/add_news)
+* [Website design features](/tac-hep/docs/webdesign)
 
