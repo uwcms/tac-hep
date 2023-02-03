@@ -1,6 +1,7 @@
 # tac-hep website
 
 For local build Ruby needs to be installed. Instructions can be found [here](https://jekyllrb.com/docs/installation/)
+Website is hosted [here](https://ckoraka.github.io/tac-hep/).
 
 ## Run locally
 The site is built with Jekyll, and is easy to run locally if you have Ruby. To set up a “bundle” (local virtual environment in Python terms):
