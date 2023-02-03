@@ -16,4 +16,4 @@ title: "Documentation pages"
 * [Website GitHub repo](https://github.com/ckoraka/tac-hep)
 * [Add new news post](/tac-hep/docs/add_news)
 * [Website design features](/tac-hep/docs/webdesign)
-
+* [Additional information for editing website](/tac-hep/docs/other)
