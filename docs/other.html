@@ -16,22 +16,22 @@
     <meta name="theme-color" content="#ffffff">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Sitemap | Traineeships in Advanced Computing for High Energy Physics (TAC-HEP)</title>
+<title>Additional information for page editing | Traineeships in Advanced Computing for High Energy Physics (TAC-HEP)</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Sitemap" />
+<meta property="og:title" content="Additional information for page editing" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="https://ckoraka.github.io/tac-hep/sitemap.html" />
-<meta property="og:url" content="https://ckoraka.github.io/tac-hep/sitemap.html" />
+<link rel="canonical" href="https://ckoraka.github.io/tac-hep/docs/other.html" />
+<meta property="og:url" content="https://ckoraka.github.io/tac-hep/docs/other.html" />
 <meta property="og:site_name" content="Traineeships in Advanced Computing for High Energy Physics (TAC-HEP)" />
 <meta property="og:image" content="https://ckoraka.github.io/tac-hep/mstile-150x150.png" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://ckoraka.github.io/tac-hep/mstile-150x150.png" />
-<meta property="twitter:title" content="Sitemap" />
+<meta property="twitter:title" content="Additional information for page editing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Sitemap","image":"https://ckoraka.github.io/tac-hep/mstile-150x150.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://ckoraka.github.io/tac-hep/mstile-150x150.png"}},"url":"https://ckoraka.github.io/tac-hep/sitemap.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Additional information for page editing","image":"https://ckoraka.github.io/tac-hep/mstile-150x150.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://ckoraka.github.io/tac-hep/mstile-150x150.png"}},"url":"https://ckoraka.github.io/tac-hep/docs/other.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -112,116 +112,44 @@
     <div id="container">
       <div class="container page">
         <main role="main">
-          <h3>TAC-HEP Website Sitemap</h3>
+          <h2 id="main-page-">Main page :</h2>
 
-<p><br />
-<b>Documentation pages:</b></p>
+<p>To edit some of the main page features :</p>
 <ul>
-
-
-  <li><a href="/docs/add_news.html">Adding a news item to the website</a></li>
-
-  <li><a href="/docs/other.html">Additional information for page editing</a></li>
-
-  <li><a href="/docs/newteammember.html">Information for new TAC-HEP team members</a></li>
-
-  <li><a href="/docs/fellow.html">Information to add or update fellows</a></li>
-
-  <li><a href="/docs/webdesign.html">Website design</a></li>
-
+  <li>All available fields that will de displayed in the main page are included in <code class="language-plaintext highlighter-rouge">index.html</code>.</li>
+  <li>The title of the main page can be edited in <code class="language-plaintext highlighter-rouge">_includes/masthead.html</code>.</li>
+  <li>The image used as background in the main page can be changed in <code class="language-plaintext highlighter-rouge">index.html</code> by altering the path set in the <code class="language-plaintext highlighter-rouge">bgimage</code> field. The image should be stored in the directory <code class="language-plaintext highlighter-rouge">assets/images/</code>.</li>
+  <li>To change the color of the navigation bar and the footer, the color is defined in <code class="language-plaintext highlighter-rouge">_sass/_variables.scss</code> where you should look for <code class="language-plaintext highlighter-rouge">$uw-color:</code>.</li>
+  <li>To set the navigation bar color, search in <code class="language-plaintext highlighter-rouge">_sass/_variables.scss</code> for :
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@include gradient-x($navbar-dark-active-color, $uw-color, 0%, 100%);
+</code></pre></div>    </div>
+    <p>(should be in line 251). To change the color of the footer look in file <code class="language-plaintext highlighter-rouge"></code> for line :</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@include gradient-x($navbar-dark-active-color, $uw-color, 0%, 100%);
+</code></pre></div>    </div>
+    <p>(should be in line 291 inside the .footer-dark field).</p>
+  </li>
 </ul>
 
-<p><br />
-<b>TAC-HEP Fellow pages:</b></p>
-<ul>
+<h2 id="overview">Overview</h2>
+<p>To edit overview do to file <code class="language-plaintext highlighter-rouge">pages/about/overview.md</code></p>
 
+<h2 id="to-add-new-event-">To add new event :</h2>
+<p>New events shoould be added in the <code class="language-plaintext highlighter-rouge">_data/events</code> directory. The file should be saved in the format <code class="language-plaintext highlighter-rouge">YYYYMMDD_name.yml</code>.
+Example of format :</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 
-  <li><a href="/tac-hep/fellows/ckoraka.html">Fellow</a></li>
-
-</ul>
-
-<p><br />
-<b>Other pages:</b></p>
-<ul>
-
-
-  
-
-  
-
-  
-  <li><a href="/tac-hep/contact.html">Contact Information</a></li>
-  
-
-  
-  <li><a href="/tac-hep/docs.html">Documentation pages</a></li>
-  
-
-  
-
-  
-  <li><a href="/tac-hep/fellow_projects.html">Fellow projects</a></li>
-  
-
-  
-
-  
-
-  
-  <li><a href="/tac-hep/about/team.html">Institute Team</a></li>
-  
-
-  
-  <li><a href="/tac-hep/about/team_alphabetical.html">Institute Team</a></li>
-  
-
-  
-  <li><a href="/tac-hep/news.html">News, Featured Stories and Links</a></li>
-  
-
-  
-  <li><a href="/tac-hep/about/overview.html">Overview</a></li>
-  
-
-  
-  <li><a href="/tac-hep/presentations/byarea.html">Presentations by Area</a></li>
-  
-
-  
-  <li><a href="/tac-hep/presentations/byinstitution.html">Presentations by Institution</a></li>
-  
-
-  
-  <li><a href="/tac-hep/presentations/bymonth.html">Presentations by Month</a></li>
-  
-
-  
-  <li><a href="/tac-hep/presentations/byperson.html">Presentations by Person</a></li>
-  
-
-  
-  <li><a href="/tac-hep/projects.html">Projects</a></li>
-  
-
-  
-  <li><a href="/tac-hep/sitemap.html">Sitemap</a></li>
-  
-
-  
-  <li><a href="/tac-hep/events.html">TAC-HEP Events</a></li>
-  
-
-  
-  <li><a href="/tac-hep/fellows.html">TAC/HEP Fellows Program</a></li>
-  
-
-  
-  <li><a href="/tac-hep/index.html">Traineeship</a></li>
-  
-
-  
-
-</ul>
+ <span class="na">name</span><span class="pi">:</span> <span class="s">TAC-HEP summer workshop</span>
+<span class="na">startdate</span><span class="pi">:</span> <span class="s">2022-05-23</span>
+<span class="na">enddate</span><span class="pi">:</span> <span class="s">2022-05-25</span>
+<span class="na">location</span><span class="pi">:</span> 
+<span class="na">meetingurl</span><span class="pi">:</span> 
+<span class="na">image</span><span class="pi">:</span>
+<span class="na">description</span><span class="pi">:</span> <span class="pi">&gt;</span>
+  <span class="s">- Placeholder for short description</span>
+<span class="na">labels</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">i.e. training</span>
+<span class="nn">---</span>
+</code></pre></div></div>
 
 
         </main>

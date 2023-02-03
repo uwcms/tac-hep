@@ -23,3 +23,33 @@ bundle install
 * Check that everything looks fine on localhost
 * Switch to the ```gh-pages``` branch
 * Copy the contents of the ```_site``` directory from ```main``` to ```gh-pages``` 
+
+
+
+**Instructions**
+
+```
+git clone git@github.com:ckoraka/tac-hep.git
+git checkout main 
+```
+
+Perform all needed editing. Then run :
+
+```
+bundle exec jekyll serve
+```
+
+If all look fine on localhost :
+```
+git add .
+git commit -m "comment on changes"
+git push origin main
+bundle exec jekyll build
+mv _site ../.
+git checkout gh-pages
+mv ../_site .
+scp -r _site/* .
+git add .
+git commit -m "comment on changes"
+git push origin gh-pages
+```
