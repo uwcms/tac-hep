@@ -26,10 +26,10 @@ bundle install
 
 
 
-Instructions to do so:
+**Instructions**
 
 ```
-git clone 
+git clone git@github.com:ckoraka/tac-hep.git
 git checkout main 
 ```
 
