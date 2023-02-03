@@ -43,7 +43,7 @@ If all look fine on localhost :
 ```
 git add .
 git commit -m "comment on changes"
-git push
+git push origin main
 bundle exec jekyll build
 mv _site ../.
 git checkout gh-pages
