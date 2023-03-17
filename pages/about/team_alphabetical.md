@@ -20,3 +20,18 @@ title: Institute Team
 </div>
 </div>
 
+<br>
+<h1>Collaborators</h1><br>
+
+{% assign collaborator_list = site.data.collaborators | where_exp:"item", "item.active"
+                                                      | last_name_sort: "name" %}
+
+<div class="container-fluid">
+  <div class="row">
+    {% for person in collaborator_list %}
+      {% include standard_person_card.md person=person %}
+    {% endfor %}
+  </div>
+</div>
+
+
