@@ -99,6 +99,10 @@
                     <a class="nav-link" href="/news">News</a>
                     </li>
                 -->
+
+                <li class="nav-item active">
+                   <a class="nav-link" href="/tac-hep/trainingModules.html">Training Modules</a>
+                </li>
                 <li class="nav-item active">
                    <a class="nav-link" href="/tac-hep/fellows.html">Fellows</a>
                 </li>
@@ -143,6 +147,33 @@
   <li>Add your GitHub username to the proper <a href="https://github.com/uwcms/tac-hep/tac-hep/tree/main/_data/universities">university file</a>. Note that you will <em>not</em> show up in the full team page if you are not in a university file!</li>
 </ul>
 
+<h4 id="how-to-add-a-new-collaborator-of-tac-hep-on-the-website">How to add a new collaborator of TAC-HEP on the website</h4>
+
+<ul>
+  <li>Add a photo named <code class="language-plaintext highlighter-rouge">First-Last.jpg</code> or <code class="language-plaintext highlighter-rouge">.png</code> to the <a href="https://github.com/uwcms/tac-hep/tree/main/assets/images/team">assets/images/team folder</a>. It should be 320x240 pixels.</li>
+  <li>Add a “<code class="language-plaintext highlighter-rouge">&lt;your github username&gt;.yml</code>” file to the <a href="https://github.com/uwcms/tac-hep/tree/main/_data/collaborators">people folder in the website repository</a>. Here is an example:</li>
+</ul>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">active</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">focus-area</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="s">&lt;primary focus area(s), a list&gt;</span>
+<span class="na">institution</span><span class="pi">:</span> <span class="s">&lt;Your University&gt;</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">&lt;Your name&gt;</span>
+<span class="na">photo</span><span class="pi">:</span> <span class="s">/assets/images/team/&lt;First name&gt;-&lt;Last name&gt;.jpg</span>
+<span class="na">shortname</span><span class="pi">:</span> <span class="s">&lt;Your GitHub user ID&gt;</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">&lt;Can be blank - will show a title under your picture&gt;</span>
+<span class="na">website</span><span class="pi">:</span> <span class="s">&lt;Optional, your website&gt;</span>
+<span class="na">presentations</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">How to make green eggs and ham</span>
+    <span class="na">date</span><span class="pi">:</span> <span class="s">2018-09-10</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">https://indico.cern.ch/event/697389/contributions/3062046/attachments/1712602/2761531/ROOT2018-Union.pdf</span>
+    <span class="na">meeting</span><span class="pi">:</span> <span class="s">ROOT 2018 Users Workshop</span>
+    <span class="na">meetingurl</span><span class="pi">:</span> <span class="s">https://cern.ch/root2018</span>
+    <span class="na">project</span><span class="pi">:</span> <span class="s">greeneggs</span>
+    <span class="na">focus-area</span><span class="pi">:</span> <span class="s">as</span>
+    <span class="na">location</span><span class="pi">:</span> <span class="s">Virtual</span>
+</code></pre></div></div>
+
 
         </main>
       </div>
@@ -153,10 +184,7 @@
         <div class="footer-vertical-center">
           <div class="footer-logos">
             <div class="footer-logo">
-              <img src="/tac-hep/apple-touch-icon.png" alt="UW logo">
-            </div>
-            <div class="footer-logo">
-              <img src="/tac-hep/apple-touch-icon.png" alt="Other logo">
+              <img src="/tac-hep/DOE-icon.png" alt="DOE logo">
             </div>
           </div>
         </div>
