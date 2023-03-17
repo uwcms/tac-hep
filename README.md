@@ -1,6 +1,8 @@
 # tac-hep website
 
-For local build Ruby needs to be installed. Instructions can be found [here](https://jekyllrb.com/docs/installation/)
+Website is hosted [here](https://uwcms.github.io/tac-hep/).
+
+For local build Ruby needs to be installed. Instructions can be found [here](https://jekyllrb.com/docs/installation/).
 
 ## Run locally
 The site is built with Jekyll, and is easy to run locally if you have Ruby. To set up a “bundle” (local virtual environment in Python terms):
@@ -26,10 +28,12 @@ bundle install
 
 
 
-**Instructions**
+### Instructions
+
+**Note :** Before editing dont forget to ```git pull``` to pull any remote changes. 
 
 ```
-git clone git@github.com:ckoraka/tac-hep.git
+git clone git@github.com:uwcms/tac-hep.git
 git checkout main 
 ```
 
