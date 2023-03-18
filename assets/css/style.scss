@@ -326,7 +326,7 @@ div#container {
   .footer-text {
     @media not print {
       color: $navbar-dark-active-color;
-      text-shadow: 0px 0px 10px $primary;
+      text-shadow: 0px 0px 10px #000000;
     }
     font-size: smaller;
     @media only screen and (min-width: 400px), only print {
