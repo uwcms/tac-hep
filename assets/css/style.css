@@ -106,7 +106,7 @@ div#container { position: relative; height: auto !important; height: 100%; min-h
 
 .footer-dark .footer-text { font-size: smaller; }
 
-@media not print { .footer-dark .footer-text { color: #fff; text-shadow: 0px 0px 10px #0082ca; } }
+@media not print { .footer-dark .footer-text { color: #fff; text-shadow: 0px 0px 10px #000000; } }
 
 @media only screen and (min-width: 400px), only print { .footer-dark .footer-text { font-size: small; } }
 
