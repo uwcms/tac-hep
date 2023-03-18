@@ -4,7 +4,7 @@ layout: default
 title: Overview
 ---
 
-<h1>Traineeships in Advanced Computing for High Energy Physics (TAC-HEP)</h1>
+<h1>Training to Advance Computational High Energy Physics in the Exascale Era, or TAC-HEP</h1>
 <p align="justify">
 The complexity, computational needs and data volumes of current and future high energy physics (HEP) experiments are increasing dramatically. This challenge, coupled with the rapidly evolving computing architectures and storage technologies, requires a paradigm shift in software and computing to ensure effective and efficient use of resources in the quest to address the science goals of the HEP experiments. Training the next generation of software and computing experts to successfully take on this challenge is, therefore, absolutely critical for enabling scientific advances in the future.
 </p>
