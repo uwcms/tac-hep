@@ -3,7 +3,7 @@ layout: collaborator
 active: true
 name: Torre Wenaus
 institution: Brookhaven National Laboratory
-e-mail: 
+e-mail: wenaus@gmail.com
 github-username: wenaus
 photo: "/assets/images/team/Torre-Wenaus.jpeg"
 shortname: wenaus
