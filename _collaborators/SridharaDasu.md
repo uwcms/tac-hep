@@ -3,7 +3,7 @@ layout: collaborator
 active: true
 name: Sridhara Dasu
 institution: University of Wisconsin - Madison
-e-mail: 
+e-mail: dasu@hep.wisc.edu
 github-username: SridharaDasu
 photo: "/assets/images/team/Sridhara-Dasu.jpeg"
 shortname: SridharaDasu

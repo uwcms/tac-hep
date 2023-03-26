@@ -3,7 +3,7 @@ layout: collaborator
 active: true
 name: Keith Bechtol
 institution: University of Wisconsin - Madison
-e-mail: 
+e-mail: kbechtol@wisc.edu
 github-username: bechtol
 photo: "/assets/images/team/Keith-Bechtol.jpeg
 shortname: bechtol
