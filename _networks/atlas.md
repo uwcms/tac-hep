@@ -8,4 +8,5 @@ personnel:
   - vimartin
   - cranmer
   - wenaus
+  - StephaneWillocq
 ---
