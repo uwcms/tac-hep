@@ -8,5 +8,6 @@ personnel:
   - tulika176
   - cranmer
   - SridharaDasu
+  - bechtol
 ---
 
