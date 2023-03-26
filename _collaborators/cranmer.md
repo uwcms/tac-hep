@@ -14,7 +14,6 @@ presentations:
 
 ### Biography
 
-
 ### Project interests
 
 
