@@ -7,6 +7,7 @@ url: https://www.princeton.edu
 personnel:
   - pelmer
   - isobelojalvo
+  - jimolsen
   - davidlange6
   - jpivarski
   - henryiii
