@@ -5,5 +5,6 @@ latitude:
 longitude: 
 url: https://www.bnl.gov/world/
 personnel:
+  - wenaus
 ---
 
